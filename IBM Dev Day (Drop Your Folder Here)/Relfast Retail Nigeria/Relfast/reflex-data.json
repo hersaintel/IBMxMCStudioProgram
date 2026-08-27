@@ -1,0 +1,93 @@
+{
+  "users": [
+    {
+      "id": "d0315cf5-92c6-4ac8-9035-3bea9ad9b0d4",
+      "name": "Chioma Electronics",
+      "phone": "+2348010000001",
+      "role": "retailer",
+      "password": "retailer123"
+    },
+    {
+      "id": "6bd6990a-0f09-44e8-9402-78f6da3e36fd",
+      "name": "Adaeze Pharmacy",
+      "phone": "+2348010000002",
+      "role": "retailer",
+      "password": "retailer123"
+    },
+    {
+      "id": "2af41026-4f71-44af-8a40-e9aaf291cd7b",
+      "name": "Tunde Adebayo",
+      "phone": "+2348020000010",
+      "role": "dispatcher",
+      "password": "dispatch123"
+    },
+    {
+      "id": "7e9442d3-27b8-464c-95f8-75e3abd51417",
+      "name": "Emeka Obi",
+      "phone": "+2348030000020",
+      "role": "rider",
+      "password": "rider123"
+    },
+    {
+      "id": "e9765ea2-f5d1-43f7-9897-b0e794d34102",
+      "name": "Fatima Bello",
+      "phone": "+2348030000021",
+      "role": "rider",
+      "password": "rider123"
+    },
+    {
+      "id": "b38c8f72-cfc5-4a02-91eb-b1c5bd46f1bb",
+      "name": "Ibrahim Yusuf",
+      "phone": "+2348030000022",
+      "role": "rider",
+      "password": "rider123"
+    }
+  ],
+  "deliveries": [
+    {
+      "id": "a97875d3-7cc2-4809-b87d-5493444cd9c0",
+      "retailer_id": "d0315cf5-92c6-4ac8-9035-3bea9ad9b0d4",
+      "customer_name": "oba femi",
+      "customer_phone": "+235984637",
+      "address": "westi abuja",
+      "item_description": "iphone 17 pro max",
+      "status": "delivered",
+      "rider_id": "7e9442d3-27b8-464c-95f8-75e3abd51417",
+      "assigned_at": "2026-08-27T13:12:15.815Z",
+      "picked_up_at": "2026-08-27T13:13:06.041Z",
+      "delivered_at": "2026-08-27T13:13:40.846Z",
+      "created_at": "2026-08-27T13:11:50.558Z",
+      "updated_at": "2026-08-27T13:13:40.846Z"
+    },
+    {
+      "id": "5b76217a-5582-469f-b8ed-87b89ee40d0e",
+      "retailer_id": "d0315cf5-92c6-4ac8-9035-3bea9ad9b0d4",
+      "customer_name": "Adebayo Okonkwo",
+      "customer_phone": "+2348091112222",
+      "address": "Lekki Phase 1, Lagos – near Circle Mall",
+      "item_description": "Samsung Galaxy A15 + screen protector",
+      "status": "pending",
+      "rider_id": null,
+      "assigned_at": null,
+      "picked_up_at": null,
+      "delivered_at": null,
+      "created_at": "2026-08-27T13:09:33.671Z",
+      "updated_at": "2026-08-27T13:09:33.671Z"
+    },
+    {
+      "id": "4166a049-a891-485e-9bfd-51fc1ebb6dba",
+      "retailer_id": "d0315cf5-92c6-4ac8-9035-3bea9ad9b0d4",
+      "customer_name": "Ngozi Eze",
+      "customer_phone": "+2348074445555",
+      "address": "Ikeja GRA, Lagos",
+      "item_description": "Laptop charger 65W USB-C",
+      "status": "pending",
+      "rider_id": null,
+      "assigned_at": null,
+      "picked_up_at": null,
+      "delivered_at": null,
+      "created_at": "2026-08-27T13:09:33.671Z",
+      "updated_at": "2026-08-27T13:09:33.671Z"
+    }
+  ]
+}
